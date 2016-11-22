@@ -119,4 +119,7 @@ static inline int syscall_get_arch(void)
 	return AUDIT_ARCH_AARCH64;
 }
 
+/* NOTE: CUSTOM */
+asmlinkage long sys_userinfo(void);
+
 #endif	/* __ASM_SYSCALL_H */
